@@ -1,0 +1,29 @@
+/* 首先清除样式 */
+*{margin: 0;padding: 0}
+h3{
+    line-height: 60px;
+    background: #FFC0CB;
+    color: #ffffff;
+    text-align: center;
+}
+.content{
+    width: 400px;
+    margin: 0 auto;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
+h4,p,li{
+    cursor: pointer;
+    padding:5px;
+}
+h4:hover{
+    color: #979797
+}
+dl{
+    margin-top: 15px;
+}
+p:hover,li:hover,dl:hover{
+    color:#FF14AE;
+}
