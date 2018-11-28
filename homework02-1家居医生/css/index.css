@@ -1,0 +1,44 @@
+*{margin: 0;padding: 0}
+.logo{
+    height: 70px;
+    background: #1ABEBF url("../images/logo.png") no-repeat center;
+}
+.content{
+    width: 720px;
+    margin: 0 auto;
+}
+h1{
+    color: #505050;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: unset;    
+}
+span{   
+    color:#A1A1A1;
+    font-weight: unset;
+}
+img{
+    margin-top: 20px;
+}
+.content p{
+    color: #505050;
+    margin-top: 20px;
+    text-indent: 20px;/* 缩进 */
+}
+table{
+    margin-top: 30px;
+    border-collapse: collapse;/* 边框折叠 */
+    width: 720px;
+    line-height: 50px;
+    text-align:center;
+}
+table,th,td{
+    border: 2px solid #333;
+}
+thead{
+    background: #FF8201;
+}
+.title{
+    color: beige;
+    height: 60px;
+}
