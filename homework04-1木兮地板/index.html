@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_939447_hydkexu9khv.css">
+
+</head>
+
+<body>
+    <!-- 页头导航 -->
+    <div class="header">
+        <div class="navbar navbar-default mx-center mx-width" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">关于公司</a></li>
+                    <li><a href="#">产品展示</a></li>
+                    <li><a href="#">招商加盟</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 中间部分 -->
+    <div class="mx-content">
+        <!-- 轮播图 -->
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+            <!-- 下面三个圆点 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item">
+                    <img src="images/banner1.jpg" alt="First slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+">
+                </div>
+                <div class="item">
+                    <img src="images/banner2.jpg" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
+                </div>
+                <div class="item active">
+                    <img src="images/banner3.jpg" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+">
+                </div>
+            </div>
+            <!-- 上下翻页 -->
+            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        <!-- 中间内容区 -->
+        <div class="home-content mx-width mx-content">
+            <h3>企业精神</h3>
+            <div class="characteristic row text-center">
+                <div class="col-md-3">
+                    <div class="characteristic_icon">
+                        <img src="images/pinpai.png" alt="pinpai">
+                    </div>
+                    <p class="title ">品质</p>
+                    <p class="sm_title">品质是品牌的发展基石</p>
+                    <p class="sm_title">坚持好品质,必定铸就优质品牌</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="characteristic_icon">
+                        <img src="images/keji.png" alt="keji">
+                    </div>
+                    <p class="title ">科技</p>
+                    <p class="sm_title">科技是品牌的助推力</p>
+                    <p class="sm_title">只有不断科技创新,才能不会被淘汰</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="characteristic_icon">
+                        <img src="images/chengxin.png" alt="chengxin">
+                    </div>
+                    <p class="title ">诚信</p>
+                    <p class="sm_title">诚信是品牌的防护盾</p>
+                    <p class="sm_title">诚信企业,放心品牌才能走的更长久</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="characteristic_icon">
+                        <img src="images/gongying.png" alt="gongying">
+                    </div>
+                    <p class="title ">共赢</p>
+                    <p class="sm_title">共赢是品牌的生命力</p>
+                    <p class="sm_title">与客户共赢,与员工共赢与企业共赢</p>
+                </div>
+            </div>
+
+            <!-- 产品展示 -->
+            <div class="product">
+                <div class="product-title">
+                    <p class="show">产品展示</p>
+                </div>
+                <div class="product-list">
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-6 ">
+                            <div><img src="images/item01.jpg" alt=""></div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 ">
+                            <div> <img src="images/item02.jpg" alt=""></div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6  ">
+                            <div> <img src="images/item03.jpg" alt=""></div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6  ">
+                            <div> <img src="images/item04.jpg" alt=""></div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 ">
+                            <div> <img src="images/item05.jpg" alt=""></div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 ">
+                            <div> <img src="images/item06.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚 -->
+
+    <div class="footer">
+        <div class="row mx-width mx-center">
+            <!-- 左 -->
+            <div class="col-md-3 col-sm-4">
+                <div class="footer-logo">
+                    <a href="#"><img src="images/logo3.png"></a>
+                </div>
+            </div>
+            <!-- 中 -->
+            <div class="col-md-6 col-sm-8">
+                <div class="decoration-none row  changepage">
+                    <div class="col-md-3 col-sm-3">
+                        <a href="">关于公司</a>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <a href="">产品展示</a>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <a href="">招商加盟</a>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <a href="">联系我们</a>
+                    </div>
+                </div>
+                <p class="copyright">版权所有©木兮实业有限公司 鄂ICP备18011650号</p>
+            </div>
+            <!-- 右 -->
+            <div class="col-md-3 col-sm-12">
+                <div class="row">
+                    <p class="col-md-12 col-sm-4">
+                        <button class="iconfont">&#xe60d;</button>
+                        027-83622296&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <p class="col-md-12 col-sm-4">
+                        <button class="iconfont">&#xe641;</button>
+                        13387576980&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <p class="col-md-12 col-sm-4">
+                        <button class="iconfont">&#xe604;</button>
+                        yt15yi@163.com
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

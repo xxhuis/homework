@@ -1,0 +1,121 @@
+body{
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/*é¡µé¢çš„å…¬å…±æ ·å¼*/
+.mx-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+.mx-width{
+	padding-left: 10%;
+	padding-right: 10%;
+	box-sizing: border-box;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*å¯¼èˆªéƒ¨åˆ†çš„æ ·å¼*/
+.mx-navigation{
+	width: 100%;
+}
+.mx-navigation .navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+.mx-navigation .navbar-default{
+	background: none;
+	border: none;
+}
+.mx-navigation .navbar-default .navbar-toggle .icon-bar{
+	background: #2dae36;
+}
+.mx-navigation .navbar-brand{
+	width: 280px;
+	background: url(../images/logo0.png) center no-repeat;
+	height: 80px;
+	padding: 8px;
+}
+.mx-navigation .navbar-brand img{
+	height:100%;
+}
+.mx-navigation .collapse{
+	line-height: 50px;
+}
+.mx-navigation .navbar-toggle{
+	margin-top: 22px;
+	border-color: #2dae36;
+}
+.mx-navigation .navbar-toggle:hover{
+	border-color: white;
+	background-color:#2dae36;
+}
+.mx-navigation .navbar-collapse{
+	padding:0;
+}
+.mx-navigation .navbar-default .navbar-toggle:hover .icon-bar{
+	background-color:white;
+}
+.mx-navigation .navbar-nav{
+	margin-right: -60px;
+}
+.mx-navigation .navbar-nav>li>a{
+	line-height: 50px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.mx-navigation .navbar-nav>li:hover>a{
+	color:#2dae36;
+	border-bottom: 2px solid #2dae36;
+}
+.mx-navigation .navbar-nav .select>a{
+	color:#2dae36 !important;
+	border-bottom: 2px solid #2dae36 !important;
+}
+/* 页脚 */
+.footer{
+	padding-top:24px;
+	padding-bottom:16px;
+	box-sizing: border-box;
+	background-color:#ddd;
+    text-align: center;
+    color: #666;
+}
+.footer .changepage {
+    padding-top: 20px;
+}
+.iconfont{border: none}
+.changepage a:hover{
+    color: #2dae36;
+    text-decoration: none;
+}
+.changepage a{color: #666}
+/*  */
+.saoma {
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+    z-index: 100;
+}
+/* 标题 */
+.title .title-text{
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    background: #2dae36;
+    border-radius: 16px 0px;
+}
+.title{
+    height: 42px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #2dae36;
+}

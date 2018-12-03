@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <style>
+        *{margin: 0;padding: 0;color: #333;font-size: 14px;}
+        .mx-width{padding-left: 10%;padding-right: 10% }
+        .navbar {
+            position: relative;
+            height: 82px;
+            width: 1350px;
+            padding: auto;
+            background: pink;
+            overflow: hidden;
+        }
+        .navbar-brand{
+            width: 280px;
+            height:80px ;
+            background:url("images/logo0.png") center no-repeat;
+            padding: 8px;
+        }
+
+        .collapse {
+            line-height: 50px;
+            text-align: center;
+            color: #2DAE36;
+        }
+
+        .collapse>ul {
+            margin-right: -60px;
+            float: right;
+        }
+
+        .nav>li>a {
+            padding: 15px 8px;
+            height: 80px;
+            line-height: 50px;
+        }
+
+        .nav>.active {
+            border-bottom: 2px solid #2DAE36;
+            color: #2DAE36;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar navbar-default mx-center mx-width" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#">关于公司</a></li>
+                <li><a href="#">产品展示</a></li>
+                <li><a href="#">招商加盟</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
